@@ -24,7 +24,7 @@ LOG.addHandler(logging.StreamHandler())
 
 S3_CONN = "s3_connection"
 S3_PREFIX = "testbucket"
-BUCKET = Variable.get("S3_BUCKET")
+BUCKET = Variable.get("KseniaLushcheva")
 
 default_args = {
     "owner": "Ksenia Lushcheva",
