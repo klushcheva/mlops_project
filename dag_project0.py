@@ -28,7 +28,7 @@ S3_CONN = "s3_connection"
 S3_PREFIX = "KseniaLushcheva"
 S3_BUCKET = Variable.get("S3_BUCKET")
 
-DAG_NAME = "hw2_dag"
+DAG_NAME = "project_dag"
 DEFAULT_ARGS = {
     "owner": "Ksenia Lushcheva",
     "retries": 3,
